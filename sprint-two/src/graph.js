@@ -11,12 +11,6 @@ Graph.prototype.addNode = function(node){
 };
 
 Graph.prototype.contains = function(node){
-	// this.forEachNode(function(node2, key, col){
-	// 	if(node2 === node){
-	// 		return true;
-	// 	}
-	// });
-	// return false;
 	for(var key in this.nodes){
 		if(this.nodes[key].value === node){
 			return true;
@@ -31,11 +25,6 @@ Graph.prototype.removeNode = function(node){
 			delete this.nodes[k];
 	}
 	}
-	// this.forEachNode(function(value, key){
-	// 	if(this.contains(node)){
-	// 		delete this.nodes[key];
-	// 	}
-	// });
 };
 
 Graph.prototype.hasEdge = function(fromNode, toNode){

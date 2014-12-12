@@ -6,8 +6,8 @@ var LinkedList = function(){
   list.addToTail = function(value){
     var newNode = new Node(value);
     if(this.head === null){
-      this.head = newNode;   // this assignment gives us all properties of Node
-      this.tail = newNode;    // this assignment gives us all properties of Node
+      this.head = newNode;   
+      this.tail = newNode;    
     }else{
       this.tail.next = newNode;
       this.tail = newNode;

@@ -3,7 +3,7 @@ var Tree = function(value){
   newTree.value = value;
 
   // your code here
-  newTree.children = {};  // fix me...this was newTree.children = null
+  newTree.children = {};  
   return newTree;
 };
 
@@ -26,7 +26,7 @@ treeMethods.contains = function(target){
 			for(var i=0; i < Object.keys(child.children).length; i++){
 				if(traverseTrees(child.children[i])){
 					return true; 
-				}//need to be able to point from currentNode to first child
+				}
 			}
 		}
 	}
@@ -38,7 +38,7 @@ treeMethods.contains = function(target){
 
 treeMethods.getSize = function(){
 	
- return Object.keys(this.children).length; //gets the lenth of the object
+ return Object.keys(this.children).length; 
 
 };
 
