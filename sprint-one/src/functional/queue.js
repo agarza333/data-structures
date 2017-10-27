@@ -5,7 +5,6 @@ var Queue = function(){
   var storage = {};
   var counter = 0;
   var somePos = 1;
-  // Implement the methods below
 
   someInstance.enqueue = function(value){
     counter++;

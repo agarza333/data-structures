@@ -51,6 +51,3 @@ var Tuple = function(k, v){
 
   return [k,v];
 }
-/*
- * Complexity: What is the time complexity of the above functions?
- */

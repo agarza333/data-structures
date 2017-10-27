@@ -43,7 +43,7 @@ treeMethods.getSize = function(){
 };
 
 /*
- * Complexity: What is the time complexity of the above functions?
+ * 
  find N
  insert 1
  remove 1
